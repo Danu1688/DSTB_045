@@ -1,9 +1,9 @@
 proxies:
-- name: Gatot3_DO_2
+- name: Dstb045_DO_2
   type: trojan
   server: beacon.liveon.id
   port: 443
-  password: c62c8da8-70a2-4e47-9f15-89f3809c2db4
+  password: 8e7c371f-f099-47b2-9335-8ccffdb4281d
   udp: true
   sni: sgdo2.myserver-prem.xyz
   skip-cert-verify: true
