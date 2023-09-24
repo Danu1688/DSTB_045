@@ -1,4 +1,17 @@
 proxies:
+- name: PakDheNusa_LiveNusa_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: dff25ceb-0d2c-4702-a76e-25f70e6809b6
+  udp: true
+  sni: vpna4mvbhv.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpna4mvbhv.scpotato.me
 - name: Dstb045_DO_2
   type: trojan
   server: beacon.liveon.id
